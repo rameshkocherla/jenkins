@@ -20,7 +20,7 @@ node {
 	
 	stage ('test results') {
      //test case results 
-     junit 'target/surefire-reports/*.jar'
+     junit 'target/surefire-reports/*.xml'
 	
 	}
 }
